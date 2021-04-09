@@ -13,6 +13,8 @@ class Integrity < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     system "go", "build", *std_go_args
+
+    bin.install "integrity"
   end
 
   test do
