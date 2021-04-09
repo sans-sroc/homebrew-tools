@@ -1,4 +1,4 @@
-# Sans-sroc Tools
+# SANS-SROC Tools
 
 ## How do I install these formulae?
 
