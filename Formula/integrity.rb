@@ -1,8 +1,8 @@
 class Integrity < Formula
   desc "Validates files in a given directory"
   homepage "https://github.com/sans-sroc/integrity"
-  url "https://github.com/sans-sroc/integrity/archive/2.0.0.tar.gz"
-  sha256 "96fc01bcfe1e683f2c153b82fbcd5605fdcea6e81ea88aaea03d63e09283c4da"
+  url "https://github.com/sans-sroc/integrity/archive/2.0.2.tar.gz"
+  sha256 "0d4c65bb3b9b3dbf2ba4e90e4f29be1793cb125709467c6e3ecce291e54f04b6"
   license "MIT"
 
   depends_on "go" => :build
