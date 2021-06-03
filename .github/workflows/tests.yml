@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - renovate/**
   pull_request:
 jobs:
   test-bot:
@@ -42,4 +41,15 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: bottles
-          path: '*.bottle.*'
+          path: "*.bottle.*"
+
+  add_labels:
+    runs-on: ubuntu-latest
+    needs:
+      - test-bot
+    steps:
+      - uses: actions-ecosystem/action-add-labels@v1
+        if: github.event_name == 'pull_request'
+        with:
+          labels: |
+            pr-pull
