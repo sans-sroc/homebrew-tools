@@ -3,5 +3,5 @@
     "config:base"
   ],
   "labels": ["pr-pull"],
-  "automergeType": "branch"
+  "automergeType": "pr"
 }
