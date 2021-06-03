@@ -48,8 +48,8 @@ jobs:
     needs:
       - test-bot
     steps:
-      - uses: actions-ecosystem/action-add-labels@v1
+      - uses: actions/labeler@v2
         if: github.event_name == 'pull_request'
         with:
-          labels: |
-            pr-pull
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          configuration-path: .github/labeler.yml
