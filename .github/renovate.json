@@ -2,5 +2,6 @@
   "extends": [
     "config:base"
   ],
-  "labels": ["pr-pull"]
+  "labels": ["pr-pull"],
+  "automergeType": "branch"
 }
