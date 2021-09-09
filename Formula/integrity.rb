@@ -1,8 +1,8 @@
 class Integrity < Formula
   desc "Validates files in a given directory"
   homepage "https://github.com/sans-sroc/integrity"
-  url "https://github.com/sans-sroc/integrity/archive/3.0.2.tar.gz"
-  sha256 "aefaadf4db418af76d25e0f6312962836d0be0cdd08a836f5d9b0fa52b14087e"
+  url "https://github.com/sans-sroc/integrity/archive/3.1.0.tar.gz"
+  sha256 "8bc48ac0e57e182a0cfd6c3a65b3144520b909d7c7997a2df4200a680e9f19cc"
   license "MIT"
 
   bottle do
