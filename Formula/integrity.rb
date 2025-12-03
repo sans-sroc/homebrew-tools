@@ -1,8 +1,8 @@
 class Integrity < Formula
   desc "Validation tool for SANS Courseware files"
   homepage "https://github.com/sans-sroc/integrity"
-  url "https://github.com/sans-sroc/integrity/archive/3.1.0.tar.gz"
-  sha256 "8bc48ac0e57e182a0cfd6c3a65b3144520b909d7c7997a2df4200a680e9f19cc"
+  url "https://github.com/sans-sroc/integrity/archive/refs/tags/3.2.0.tar.gz"
+  sha256 "9613d8f19091b5dd68e32bc8f5b9d6ea80d19d730966df06618d5b15f0923e94"
   license "MIT"
 
   bottle do
